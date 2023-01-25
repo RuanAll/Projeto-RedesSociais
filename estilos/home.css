@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+body{
+    background: url('../imagens/tela-home.jpg') no-repeat center top;
+
+    background-size: cover;
+}
+div{
+    border-radius: 10px;
+    background: url('../imagens/icone-cursoemvideo.png') no-repeat ;
+    width: 41px;
+    height: 41px;
+    margin: 387.5px 0px 0px 195px;
+}
+div:hover{
+    border: 1px solid rgba(255, 255, 255, 0.603);
+    transition: border .5s;
+    margin: 387.5px 0px 0px 194px;
+}
+a{
+    color: rgba(0, 0, 0, 0);
+}
