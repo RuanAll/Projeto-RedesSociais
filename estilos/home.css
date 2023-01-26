@@ -17,16 +17,18 @@ body{
 }
 div{
     border-radius: 10px;
-    background: url('../imagens/icone-cursoemvideo.png') no-repeat ;
-    width: 41px;
-    height: 41px;
-    margin: 387.5px 0px 0px 195px;
+    width: 43px;
+    height: 43px;
+    margin: 387px 0px 0px 195px;
 }
 div:hover{
+    width: 43px;
+    height: 43px;
     border: 1px solid rgba(255, 255, 255, 0.603);
-    transition: border .5s;
-    margin: 387.5px 0px 0px 194px;
+    margin: 386px 0px 0px 194px;
 }
-a{
-    color: rgba(0, 0, 0, 0);
+a > img{
+    width: 43px;
+    height: 43px;
+    border-radius: 8px;
 }
