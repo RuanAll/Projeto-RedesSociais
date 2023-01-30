@@ -45,10 +45,6 @@ iframe#tela{
 section#redes{
     display: block;
     text-align: right;
-    position: absolute;
-    top: 50%;
-    left: 94.5%;
-    transform: translate(0, -50%);
 }
 section#redes img{
     width: 50px;
@@ -61,18 +57,4 @@ section#redes img:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.699);
     transition: transform .3s, border .2s;
-}
-
-div#menu{
-    display: block;
-    position: absolute;
-    width: 43px;
-    height: 43px;
-    top: 20px;
-    left: 20px;
-}
-div#menu img:hover{
-    border-radius: 5px;
-    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.932);
-    transition: box-shadow .8s;
 }
